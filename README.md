@@ -1,52 +1,25 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Pedro%20Leanza&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20|%20Distributed%20Systems%20|%20Performance&descAlignY=51&descAlign=62" />
-</div>
+# Olá! Sou o Pedro Leanza 👋
 
-<h1 align="center">Hi there, I'm Pedro Leanza 👋</h1>
+**Software Engineering Student | Backend Fundamentals & Fullstack SaaS**
 
-<p align="center">
-  <strong>Crafting resilient distributed systems and highly optimized user interfaces.</strong><br>
-  I build software that doesn't just work on the happy path, but survives when the data center catches fire.
-</p>
+Sou estudante de Engenharia de Software (3º Semestre) obcecado em construir uma fundação técnica inquebrável. Meu objetivo é me tornar um desenvolvedor Júnior de altíssima tração — aquele que entende as engrenagens internas dos sistemas e não precisa de "babá técnica" para resolver problemas reais.
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/pedro-leanza-56a16b410/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://site-para-portif-lio.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-252525?style=for-the-badge&logo=mac-os&logoColor=white" alt="Portfolio Site" />
-  </a>
-</div>
+Para alcançar isso, divido meu tempo de estudo em duas frentes: **Laboratórios de Fundamentos** (onde desço ao nível do SO, concorrência e memória) e **Produtos do Mundo Real** (onde aplico UX premium e visão de negócio através de plataformas SaaS/WaaS).
 
-<br>
+## 🔬 Laboratórios de Backend (Fundamentos e Arquitetura)
+Projetos onde estudo como sistemas distribuídos funcionam "por baixo dos panos", lidando com I/O, Garbage Collection e Concorrência.
 
-### 🛠️ Core Engineering Stack
+- **[GigaMQ (Go)](#)**: Um Message Broker TCP focado em *Throughput*. Implementado com padrão Zero-Copy (uso estrito de ponteiros) e *Fail-Fast* assíncrono para mitigar Head-of-Line Blocking e esgotamento do GC.
+- **[RaftKV (Rust)](#)**: Estudo do algoritmo de consenso distribuído. Uso de `tokio::task::JoinSet` com Semáforos para controle preciso de vazão de rede (prevenção de microbursting) e tolerância a partições.
+- **[SagaCommerce (Java/Spring)](#)**: Um sistema de e-commerce resiliente aplicando o Saga Pattern Coreografado. Uso de *Transaction Synchronization* no PostgreSQL para desacoplar I/O de rede e evitar exaustão de Connection Pools.
 
-<p align="left">
-  <img src="https://img.shields.io/badge/go-%2300ADD8.svg?style=flat-square&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/rust-%23000000.svg?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=flat-square&logo=spring&logoColor=white" alt="Spring" />
-  <img src="https://img.shields.io/badge/Apache%20Kafka-000?style=flat-square&logo=apachekafka" alt="Kafka" />
-  <img src="https://img.shields.io/badge/react_native-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB" alt="React Native" />
-  <img src="https://img.shields.io/badge/Next-black?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-</p>
+## 🚀 Produtos & SaaS (Visão de Negócio e UX)
+Projetos reais onde foco na dor do cliente, interfaces fluídas e entrega de valor (Next.js, React Native, Automações).
 
-### 🏗️ Engineering Philosophy & Highlight Projects
+- **[ShowroomVelocidade (WaaS)](#)**: Plataforma *White-Label* (Website-as-a-Service) de alta performance para concessionárias de veículos.
+- **[SkateTech (React Native)](#)**: App mobile focado em UX nível "Tier-1". Integração de *Skeleton Loaders*, *Haptics* e animações responsivas nativas com Bottom Sheets.
+- **[Rústica Micropadaria](#)**: Presença digital artesanal focada em UI limpa, performance extrema e conversão visual sem "clutter".
+- **[Automação de CRM via WhatsApp](#)**: Integração de fluxos de ponta a ponta para otimização de vendas B2B/B2C usando APIs do WhatsApp.
 
-I specialize in moving beyond syntax to solve complex architectural challenges: **concurrency, idempotency, head-of-line blocking, and data consistency.** 
-
-Here is what I am building:
-
-*   **[RaftKV](https://github.com/Leanza-dev/RaftKV)**: A distributed consensus Key-Value store written in **Rust**. Built from the ground up to prevent split-brain scenarios using strict state atomicity (`RwLock`) and TCP framing to prevent OOM vulnerabilities.
-*   **[GigaMQ](https://github.com/Leanza-dev/GigaMQ)**: A high-performance, zero-dependency Message Broker in **Go**. Features robust Pub/Sub routing, TCP deadline protections against Slowloris attacks, and async fan-out via isolated `WritePump` goroutines to eliminate Head-of-Line blocking.
-*   **[SagaCommerce](https://github.com/Leanza-dev/SagaCommerce)**: A microservices orchestration engine in **Java / Spring Boot / Kafka**. Demonstrates the real-world Saga Pattern with asynchronous choreographies, Compensating Transactions, and the Inbox Pattern (via PostgreSQL) for strict idempotency against duplicate event delivery.
-*   **[SkateTech](https://github.com/Leanza-dev/SkateTech)**: A premium community app built with **React Native / Expo**. Showcases UX excellence, FlatList performance optimizations, and map integrations.
-*   **[ShowroomVelocidade](https://github.com/Leanza-dev/ShowroomVelocidade)**: An architectural case study for a proprietary B2B SaaS platform focused on inventory automation.
-
-<br>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Leanza-dev&show_icons=true&theme=radical&hide_border=true" />
-</div>
+---
+📫 **Como me encontrar:** [LinkedIn](link) | [Email](mailto:email@email.com)
