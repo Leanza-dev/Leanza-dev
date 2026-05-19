@@ -1,7 +1,7 @@
 # Olá! Sou o Pedro Leanza 👋
 
 <p align="center">
-  <img src="./github_profile_banner.png" alt="Pedro Leanza - Pragmatic Backend Systems Engineer" width="100%" style="border-radius: 8px;" />
+  <img src="./github_profile_banner.png" alt="Pedro Leanza - Pragmatic Backend Systems Engineer" width="550" style="max-width: 100%; border-radius: 8px;" />
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 
 ---
 
-### ⚡ Sobre Mim
+### 🧑‍💻 Perfil & Filosofia de Engenharia
 
 Sou estudante de **Ciência da Computação (3º Semestre)** com foco absoluto em construir uma fundação técnica robusta. Minha abordagem de aprendizado é pragmática: recuso o superficialismo acadêmico tradicional e busco entender as engrenagens internas dos sistemas — concorrência, gerenciamento de memória, I/O e segurança de dados.
 
@@ -20,7 +20,7 @@ Minha rotina de engenharia divide-se em:
 
 ---
 
-### 🛠 Meu Arsenal Tecnológico
+### 🛠️ Stack Tecnológica & Ferramentas
 
 <table align="center" style="border: none; background: transparent;">
   <tr>
@@ -45,7 +45,7 @@ Minha rotina de engenharia divide-se em:
 
 ---
 
-### 🗺️ Topologia de Sistemas Distribuídos
+### 🗺️ Arquitetura de Sistemas Distribuídos
 
 Em vez de acumular projetos soltos, eu desenho as minhas aplicações para operarem como peças conectadas de uma infraestrutura robusta de alta escala. O ecossistema abaixo ilustra como meus projetos se integram no fluxo de dados de um ambiente distribuído real:
 
@@ -70,7 +70,7 @@ flowchart TD
 
 ---
 
-### 💻 Simulador de Sistemas & Compilação
+### 💻 Simulador de Compilação & Benchmarks
 
 Para demonstrar a corretude e a performance real do meu código de baixo nível, o terminal interativo abaixo executa testes automatizados e benchmarks de desempenho dos meus serviços de backend:
 
@@ -80,7 +80,7 @@ Para demonstrar a corretude e a performance real do meu código de baixo nível,
 
 ---
 
-### 🔬 Laboratórios de Backend (Fundamentos e Arquitetura)
+### 🔬 Engenharia de Back-End & Infraestrutura
 
 Projetos desenvolvidos para estudar como arquiteturas complexas se comportam sob estresse, priorizando eficiência de CPU/memória e corretude técnica.
 
@@ -91,7 +91,7 @@ Projetos desenvolvidos para estudar como arquiteturas complexas se comportam sob
 
 ---
 
-### 🚀 Produtos & SaaS (Entrega de Valor e UX)
+### 🚀 Sistemas Integrados & Aplicações SaaS
 
 Aplicações modernas focadas em resolver problemas reais de mercado, unindo engenharia escalável a uma experiência de usuário polida.
 
@@ -101,7 +101,7 @@ Aplicações modernas focadas em resolver problemas reais de mercado, unindo eng
 
 ---
 
-### 📫 Conecte-se Comigo
+### 📬 Contato & Redes Profissionais
 
 *   **LinkedIn:** [linkedin.com/in/pedro-leanza](https://www.linkedin.com/in/pedro-leanza/)
 *   **Email:** [pedro.leanza.dev@gmail.com](mailto:pedro.leanza.dev@gmail.com)
