@@ -13,7 +13,7 @@
   <a href="https://www.linkedin.com/in/pedro-leanza-56a16b410/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://leanza-dev.github.io/portfolio-site/">
+  <a href="https://site-para-portif-lio.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-252525?style=for-the-badge&logo=mac-os&logoColor=white" alt="Portfolio Site" />
   </a>
 </div>
