@@ -1,11 +1,17 @@
 # Olá! Sou o Pedro Leanza 👋
 
 <p align="center">
-  <img src="./github_profile_banner.png" alt="Pedro Leanza - Pragmatic Backend Systems Engineer" width="550" style="max-width: 100%; border-radius: 8px;" />
+  <img src="./github_profile_banner.png" alt="Pedro Leanza - Pragmatic Backend Systems Engineer" width="100%" style="border-radius: 8px;" />
 </p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=600&lines=%3E+Computer+Science+Student;%3E+Focused+on+High-Performance+Backend;%3E+Building+Distributed+Systems;%3E+Mastering+Go%2C+Rust%2C+C%2B%2B+%26+Java;%3E+Pragmatic+AI-Augmented+Engineer" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <a href="https://pedroleanza.dev" target="_blank">
+    <img src="https://img.shields.io/badge/Acessar_Portf%C3%B3lio_Premium-00F0FF?style=for-the-badge&logo=vercel&logoColor=black" alt="Vercel Portfolio" />
+  </a>
 </p>
 
 ---
@@ -105,7 +111,7 @@ Aplicações modernas focadas em resolver problemas reais de mercado, unindo eng
 
 *   **LinkedIn:** [linkedin.com/in/pedro-leanza](https://www.linkedin.com/in/pedro-leanza/)
 *   **Email:** [pedro.leanza.dev@gmail.com](mailto:pedro.leanza.dev@gmail.com)
-*   **Portfólio:** [pedroleanza.dev](https://pedroleanza.dev) *(Em breve atualizado com as novas animações e i18n)*
+*   **Portfólio (Vercel):** [pedroleanza.dev](https://pedroleanza.dev)
 
 ---
 *“A complexidade é fácil. A simplicidade é que dá trabalho.”*

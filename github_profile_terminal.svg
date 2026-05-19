@@ -63,82 +63,82 @@
       .line-16 { animation: reveal-16 16s infinite; }
 
       @keyframes reveal-1 {
-        0%, 93% { opacity: 1; transform: translateY(0); }
+        0%, 93% { opacity: 1; }
         97%, 100% { opacity: 0; }
       }
       @keyframes reveal-2 {
-        0%, 1.8% { opacity: 0; transform: translateY(4px); }
-        2.5%, 93% { opacity: 1; transform: translateY(0); }
+        0%, 1.8% { opacity: 0; }
+        2.5%, 93% { opacity: 1; }
         97%, 100% { opacity: 0; }
       }
       @keyframes reveal-3 {
-        0%, 3.7% { opacity: 0; transform: translateY(4px); }
-        4.4%, 93% { opacity: 1; transform: translateY(0); }
+        0%, 3.7% { opacity: 0; }
+        4.4%, 93% { opacity: 1; }
         97%, 100% { opacity: 0; }
       }
       @keyframes reveal-4 {
-        0%, 5.6% { opacity: 0; transform: translateY(4px); }
-        6.3%, 93% { opacity: 1; transform: translateY(0); }
+        0%, 5.6% { opacity: 0; }
+        6.3%, 93% { opacity: 1; }
         97%, 100% { opacity: 0; }
       }
       @keyframes reveal-5 {
-        0%, 7.5% { opacity: 0; transform: translateY(4px); }
-        8.2%, 93% { opacity: 1; transform: translateY(0); }
+        0%, 7.5% { opacity: 0; }
+        8.2%, 93% { opacity: 1; }
         97%, 100% { opacity: 0; }
       }
       @keyframes reveal-6 {
-        0%, 9.3% { opacity: 0; transform: translateY(4px); }
-        10.0%, 93% { opacity: 1; transform: translateY(0); }
+        0%, 9.3% { opacity: 0; }
+        10.0%, 93% { opacity: 1; }
         97%, 100% { opacity: 0; }
       }
       @keyframes reveal-7 {
-        0%, 11.2% { opacity: 0; transform: translateY(4px); }
-        11.9%, 93% { opacity: 1; transform: translateY(0); }
+        0%, 11.2% { opacity: 0; }
+        11.9%, 93% { opacity: 1; }
         97%, 100% { opacity: 0; }
       }
       @keyframes reveal-8 {
-        0%, 15.0% { opacity: 0; transform: translateY(4px); }
-        15.7%, 93% { opacity: 1; transform: translateY(0); }
+        0%, 15.0% { opacity: 0; }
+        15.7%, 93% { opacity: 1; }
         97%, 100% { opacity: 0; }
       }
       @keyframes reveal-9 {
-        0%, 16.8% { opacity: 0; transform: translateY(4px); }
-        17.5%, 93% { opacity: 1; transform: translateY(0); }
+        0%, 16.8% { opacity: 0; }
+        17.5%, 93% { opacity: 1; }
         97%, 100% { opacity: 0; }
       }
       @keyframes reveal-10 {
-        0%, 18.7% { opacity: 0; transform: translateY(4px); }
-        19.4%, 93% { opacity: 1; transform: translateY(0); }
+        0%, 18.7% { opacity: 0; }
+        19.4%, 93% { opacity: 1; }
         97%, 100% { opacity: 0; }
       }
       @keyframes reveal-11 {
-        0%, 20.6% { opacity: 0; transform: translateY(4px); }
-        21.3%, 93% { opacity: 1; transform: translateY(0); }
+        0%, 20.6% { opacity: 0; }
+        21.3%, 93% { opacity: 1; }
         97%, 100% { opacity: 0; }
       }
       @keyframes reveal-12 {
-        0%, 22.5% { opacity: 0; transform: translateY(4px); }
-        23.2%, 93% { opacity: 1; transform: translateY(0); }
+        0%, 22.5% { opacity: 0; }
+        23.2%, 93% { opacity: 1; }
         97%, 100% { opacity: 0; }
       }
       @keyframes reveal-13 {
-        0%, 26.2% { opacity: 0; transform: translateY(4px); }
-        26.9%, 93% { opacity: 1; transform: translateY(0); }
+        0%, 26.2% { opacity: 0; }
+        26.9%, 93% { opacity: 1; }
         97%, 100% { opacity: 0; }
       }
       @keyframes reveal-14 {
-        0%, 28.1% { opacity: 0; transform: translateY(4px); }
-        28.8%, 93% { opacity: 1; transform: translateY(0); }
+        0%, 28.1% { opacity: 0; }
+        28.8%, 93% { opacity: 1; }
         97%, 100% { opacity: 0; }
       }
       @keyframes reveal-15 {
-        0%, 30.0% { opacity: 0; transform: translateY(4px); }
-        30.7%, 93% { opacity: 1; transform: translateY(0); }
+        0%, 30.0% { opacity: 0; }
+        30.7%, 93% { opacity: 1; }
         97%, 100% { opacity: 0; }
       }
       @keyframes reveal-16 {
-        0%, 31.8% { opacity: 0; transform: translateY(4px); }
-        32.5%, 93% { opacity: 1; transform: translateY(0); }
+        0%, 31.8% { opacity: 0; }
+        32.5%, 93% { opacity: 1; }
         97%, 100% { opacity: 0; }
       }
       
@@ -196,34 +196,34 @@
     </g>
 
     <!-- Command 2: GigaMQ Go benchmark throughput -->
-    <g class="line line-8" transform="translate(0, 150)">
-      <text x="0" y="20"><tspan class="info">pedro@leanza-dev</tspan>:<tspan class="purple">~/gigamq</tspan>$ <tspan class="cmd">go test -bench=. -benchmem ./broker/...</tspan></text>
+    <g class="line line-8">
+      <text x="0" y="170"><tspan class="info">pedro@leanza-dev</tspan>:<tspan class="purple">~/gigamq</tspan>$ <tspan class="cmd">go test -bench=. -benchmem ./broker/...</tspan></text>
     </g>
-    <g class="line line-9" transform="translate(0, 150)">
-      <text x="20" y="45" class="dimmed">goos: windows, goarch: amd64, pkg: github.com/Leanza-dev/GigaMQ/broker</text>
+    <g class="line line-9">
+      <text x="20" y="195" class="dimmed">goos: windows, goarch: amd64, pkg: github.com/Leanza-dev/GigaMQ/broker</text>
     </g>
-    <g class="line line-10" transform="translate(0, 150)">
-      <text x="20" y="65" class="dimmed">cpu: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz</text>
+    <g class="line line-10">
+      <text x="20" y="215" class="dimmed">cpu: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz</text>
     </g>
-    <g class="line line-11" transform="translate(0, 150)">
-      <text x="20" y="85">BenchmarkGigaMQThroughput-12   <tspan class="success">148,510 ops/s</tspan>   <tspan class="purple">6.73 µs/op</tspan>   <tspan class="warn">0 B/op</tspan></text>
+    <g class="line line-11">
+      <text x="20" y="235">BenchmarkGigaMQThroughput-12   <tspan class="success">148,510 ops/s</tspan>   <tspan class="purple">6.73 µs/op</tspan>   <tspan class="warn">0 B/op</tspan></text>
     </g>
-    <g class="line line-12" transform="translate(0, 150)">
-      <text x="20" y="105" class="success">PASS (Zero-Allocation Memory Buffers // Active Concurrency)</text>
+    <g class="line line-12">
+      <text x="20" y="255" class="success">PASS (Zero-Allocation Memory Buffers // Active Concurrency)</text>
     </g>
 
     <!-- Command 3: AuraBalancer L7 C++ load balancer build -->
-    <g class="line line-13" transform="translate(0, 280)">
-      <text x="0" y="20"><tspan class="info">pedro@leanza-dev</tspan>:<tspan class="purple">~/aurabalancer</tspan>$ <tspan class="cmd">g++ -O3 -std=c++17 main.cpp -o aura_balancer -pthread</tspan></text>
+    <g class="line line-13">
+      <text x="0" y="300"><tspan class="info">pedro@leanza-dev</tspan>:<tspan class="purple">~/aurabalancer</tspan>$ <tspan class="cmd">g++ -O3 -std=c++17 main.cpp -o aura_balancer -pthread</tspan></text>
     </g>
-    <g class="line line-14" transform="translate(0, 280)">
-      <text x="20" y="45" class="success">✓ Compilation successful. Target binary: ./aura_balancer</text>
+    <g class="line line-14">
+      <text x="20" y="325" class="success">✓ Compilation successful. Target binary: ./aura_balancer</text>
     </g>
-    <g class="line line-15" transform="translate(0, 280)">
-      <text x="20" y="65"><tspan class="info">[INFO]</tspan> AuraBalancer bound to TCP port 8080 (Epoll L7 Forwarder)</text>
+    <g class="line line-15" transform="translate(0, 0)">
+      <text x="20" y="345"><tspan class="info">[INFO]</tspan> AuraBalancer bound to TCP port 8080 (Epoll L7 Forwarder)</text>
     </g>
-    <g class="line line-16" transform="translate(0, 280)">
-      <text x="20" y="85"><tspan class="info">[INFO]</tspan> Route registered: /api/v1/orders -> SagaCommerce microservices</text>
+    <g class="line line-16" transform="translate(0, 0)">
+      <text x="20" y="365"><tspan class="info">[INFO]</tspan> Route registered: /api/v1/orders -> SagaCommerce microservices</text>
     </g>
 
     <!-- Live Active Flashing Cursor -->
