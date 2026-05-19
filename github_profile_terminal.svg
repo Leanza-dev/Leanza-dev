@@ -43,31 +43,103 @@
       /* Line typing/scrolling timeline animation */
       .line {
         opacity: 0;
-        animation: reveal 22s infinite;
       }
 
-      /* Delays for terminal logs */
-      .line-1 { animation-delay: 0s; }
-      .line-2 { animation-delay: 0.8s; }
-      .line-3 { animation-delay: 1.4s; }
-      .line-4 { animation-delay: 2.0s; }
-      .line-5 { animation-delay: 2.6s; }
-      .line-6 { animation-delay: 3.2s; }
-      .line-7 { animation-delay: 3.8s; }
-      .line-8 { animation-delay: 4.4s; }
-      .line-9 { animation-delay: 5.2s; }
-      .line-10 { animation-delay: 5.8s; }
-      .line-11 { animation-delay: 6.4s; }
-      .line-12 { animation-delay: 7.0s; }
-      .line-13 { animation-delay: 7.6s; }
-      .line-14 { animation-delay: 8.2s; }
-      .line-15 { animation-delay: 8.8s; }
-      .line-16 { animation-delay: 9.4s; }
+      .line-1 { animation: reveal-1 16s infinite; }
+      .line-2 { animation: reveal-2 16s infinite; }
+      .line-3 { animation: reveal-3 16s infinite; }
+      .line-4 { animation: reveal-4 16s infinite; }
+      .line-5 { animation: reveal-5 16s infinite; }
+      .line-6 { animation: reveal-6 16s infinite; }
+      .line-7 { animation: reveal-7 16s infinite; }
+      .line-8 { animation: reveal-8 16s infinite; }
+      .line-9 { animation: reveal-9 16s infinite; }
+      .line-10 { animation: reveal-10 16s infinite; }
+      .line-11 { animation: reveal-11 16s infinite; }
+      .line-12 { animation: reveal-12 16s infinite; }
+      .line-13 { animation: reveal-13 16s infinite; }
+      .line-14 { animation: reveal-14 16s infinite; }
+      .line-15 { animation: reveal-15 16s infinite; }
+      .line-16 { animation: reveal-16 16s infinite; }
 
-      @keyframes reveal {
-        0% { opacity: 0; transform: translateY(4px); }
-        2%, 92% { opacity: 1; transform: translateY(0); }
-        96%, 100% { opacity: 0; }
+      @keyframes reveal-1 {
+        0%, 93% { opacity: 1; transform: translateY(0); }
+        97%, 100% { opacity: 0; }
+      }
+      @keyframes reveal-2 {
+        0%, 1.8% { opacity: 0; transform: translateY(4px); }
+        2.5%, 93% { opacity: 1; transform: translateY(0); }
+        97%, 100% { opacity: 0; }
+      }
+      @keyframes reveal-3 {
+        0%, 3.7% { opacity: 0; transform: translateY(4px); }
+        4.4%, 93% { opacity: 1; transform: translateY(0); }
+        97%, 100% { opacity: 0; }
+      }
+      @keyframes reveal-4 {
+        0%, 5.6% { opacity: 0; transform: translateY(4px); }
+        6.3%, 93% { opacity: 1; transform: translateY(0); }
+        97%, 100% { opacity: 0; }
+      }
+      @keyframes reveal-5 {
+        0%, 7.5% { opacity: 0; transform: translateY(4px); }
+        8.2%, 93% { opacity: 1; transform: translateY(0); }
+        97%, 100% { opacity: 0; }
+      }
+      @keyframes reveal-6 {
+        0%, 9.3% { opacity: 0; transform: translateY(4px); }
+        10.0%, 93% { opacity: 1; transform: translateY(0); }
+        97%, 100% { opacity: 0; }
+      }
+      @keyframes reveal-7 {
+        0%, 11.2% { opacity: 0; transform: translateY(4px); }
+        11.9%, 93% { opacity: 1; transform: translateY(0); }
+        97%, 100% { opacity: 0; }
+      }
+      @keyframes reveal-8 {
+        0%, 15.0% { opacity: 0; transform: translateY(4px); }
+        15.7%, 93% { opacity: 1; transform: translateY(0); }
+        97%, 100% { opacity: 0; }
+      }
+      @keyframes reveal-9 {
+        0%, 16.8% { opacity: 0; transform: translateY(4px); }
+        17.5%, 93% { opacity: 1; transform: translateY(0); }
+        97%, 100% { opacity: 0; }
+      }
+      @keyframes reveal-10 {
+        0%, 18.7% { opacity: 0; transform: translateY(4px); }
+        19.4%, 93% { opacity: 1; transform: translateY(0); }
+        97%, 100% { opacity: 0; }
+      }
+      @keyframes reveal-11 {
+        0%, 20.6% { opacity: 0; transform: translateY(4px); }
+        21.3%, 93% { opacity: 1; transform: translateY(0); }
+        97%, 100% { opacity: 0; }
+      }
+      @keyframes reveal-12 {
+        0%, 22.5% { opacity: 0; transform: translateY(4px); }
+        23.2%, 93% { opacity: 1; transform: translateY(0); }
+        97%, 100% { opacity: 0; }
+      }
+      @keyframes reveal-13 {
+        0%, 26.2% { opacity: 0; transform: translateY(4px); }
+        26.9%, 93% { opacity: 1; transform: translateY(0); }
+        97%, 100% { opacity: 0; }
+      }
+      @keyframes reveal-14 {
+        0%, 28.1% { opacity: 0; transform: translateY(4px); }
+        28.8%, 93% { opacity: 1; transform: translateY(0); }
+        97%, 100% { opacity: 0; }
+      }
+      @keyframes reveal-15 {
+        0%, 30.0% { opacity: 0; transform: translateY(4px); }
+        30.7%, 93% { opacity: 1; transform: translateY(0); }
+        97%, 100% { opacity: 0; }
+      }
+      @keyframes reveal-16 {
+        0%, 31.8% { opacity: 0; transform: translateY(4px); }
+        32.5%, 93% { opacity: 1; transform: translateY(0); }
+        97%, 100% { opacity: 0; }
       }
       
       /* Grid background styling */

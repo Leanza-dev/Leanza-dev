@@ -66,12 +66,6 @@ flowchart TD
     Broker -->|Async Event Streaming| Saga["💼 SagaCommerce <br/>(Java/Spring Boot Microservices)"]:::svc
     
     Saga -->|Row-Level Isolated Sync| PG["🛢 PostgreSQL Cluster"]:::db
-
-    style Client box-shadow:0 0 10px rgba(88,166,255,0.2)
-    style Balancer box-shadow:0 0 10px rgba(0,240,255,0.2)
-    style Broker box-shadow:0 0 10px rgba(0,173,216,0.2)
-    style Consensus box-shadow:0 0 10px rgba(255,123,114,0.2)
-    style Saga box-shadow:0 0 10px rgba(215,87,179,0.2)
 ```
 
 ---
