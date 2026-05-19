@@ -1,7 +1,7 @@
 # Olá! Sou o Pedro Leanza 👋
 
 <p align="center">
-  <img src="./github_profile_banner.png" alt="Pedro Leanza - Pragmatic Backend Systems Engineer" width="100%" style="border-radius: 8px;" />
+  <img src="./github_profile_banner.png?v=3" alt="Pedro Leanza - Pragmatic Backend Systems Engineer" width="100%" style="border-radius: 8px;" />
 </p>
 
 <p align="center">
@@ -81,7 +81,7 @@ flowchart TD
 Para demonstrar a corretude e a performance real do meu código de baixo nível, o terminal interativo abaixo executa testes automatizados e benchmarks de desempenho dos meus serviços de backend:
 
 <p align="center">
-  <img src="./github_profile_terminal.svg" alt="Simulação de Compilação de Sistemas Distribuídos" width="100%" />
+  <img src="./github_profile_terminal.svg?v=3" alt="Simulação de Compilação de Sistemas Distribuídos" width="100%" />
 </p>
 
 ---
