@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://pedroleanza.dev" target="_blank">
+  <a href="https://site-para-portif-lio.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/Acessar_Portf%C3%B3lio_Premium-00F0FF?style=for-the-badge&logo=vercel&logoColor=black" alt="Vercel Portfolio" />
   </a>
 </p>
@@ -111,7 +111,7 @@ Aplicações modernas focadas em resolver problemas reais de mercado, unindo eng
 
 *   **LinkedIn:** [linkedin.com/in/pedro-leanza](https://www.linkedin.com/in/pedro-leanza/)
 *   **Email:** [pedro.leanza.dev@gmail.com](mailto:pedro.leanza.dev@gmail.com)
-*   **Portfólio (Vercel):** [pedroleanza.dev](https://pedroleanza.dev)
+*   **Portfólio (Vercel):** [site-para-portif-lio.vercel.app](https://site-para-portif-lio.vercel.app)
 
 ---
 *“A complexidade é fácil. A simplicidade é que dá trabalho.”*
